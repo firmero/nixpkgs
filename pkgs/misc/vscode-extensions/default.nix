@@ -60,6 +60,18 @@ in
     };
   };
 
+  Fr43nk.seito-openfile = buildVscodeMarketplaceExtension {
+    mktplcRef = {
+      name = "seito-openfile";
+      publisher = "Fr43nk";
+      version = "1.8.5";
+      sha256 = "1ba5rlc6qdbmv7bsg24r2hqyypx2qxpp8hfmk37wikbfh0kcpv6i";
+    };
+    meta = {
+      license = stdenv.lib.licenses.mit;
+    };
+  };
+
   james-yu.latex-workshop = buildVscodeMarketplaceExtension {
     mktplcRef = {
       name = "latex-workshop";
