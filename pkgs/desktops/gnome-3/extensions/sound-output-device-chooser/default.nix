@@ -3,6 +3,7 @@
 , fetchFromGitHub
 , libpulseaudio
 , python3
+, glib
 }:
 
 stdenv.mkDerivation rec {
@@ -24,12 +25,17 @@ stdenv.mkDerivation rec {
     })
   ];
 
+  nativeBuildInputs = [ glib ];
   dontBuild = true;
 
   uuid = "sound-output-device-chooser@kgshank.net";
   installPhase = ''
     mkdir -p $out/share/gnome-shell/extensions
     cp -r ${uuid} $out/share/gnome-shell/extensions
+
+    schemadir=${glib.makeSchemaPath "$out" "${pname}-${version}"}
+    mkdir -p $schemadir
+    cp -r $out/share/gnome-shell/extensions/${uuid}/schemas/* $schemadir
   '';
 
   meta = with stdenv.lib; {
