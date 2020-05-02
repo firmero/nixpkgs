@@ -24171,6 +24171,7 @@ in
     icon-hider = callPackage ../desktops/gnome-3/extensions/icon-hider { };
     impatience = callPackage ../desktops/gnome-3/extensions/impatience { };
     mpris-indicator-button = callPackage ../desktops/gnome-3/extensions/mpris-indicator-button { };
+    netspeed = callPackage ../desktops/gnome-3/extensions/netspeed { };
     night-theme-switcher = callPackage ../desktops/gnome-3/extensions/night-theme-switcher { };
     no-title-bar = callPackage ../desktops/gnome-3/extensions/no-title-bar { };
     paperwm = callPackage ../desktops/gnome-3/extensions/paperwm { };
