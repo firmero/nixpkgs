@@ -24167,6 +24167,7 @@ in
     dash-to-panel = callPackage ../desktops/gnome-3/extensions/dash-to-panel { };
     draw-on-your-screen = callPackage ../desktops/gnome-3/extensions/draw-on-your-screen { };
     drop-down-terminal = callPackage ../desktops/gnome-3/extensions/drop-down-terminal { };
+    gnome-bluetooth-quick-connect = callPackage ../desktops/gnome-3/extensions/gnome-bluetooth-quick-connect { };
     gsconnect = callPackage ../desktops/gnome-3/extensions/gsconnect { };
     icon-hider = callPackage ../desktops/gnome-3/extensions/icon-hider { };
     impatience = callPackage ../desktops/gnome-3/extensions/impatience { };
