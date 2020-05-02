@@ -193,4 +193,5 @@ in
   llvm-org.lldb-vscode = llvmPackages_8.lldb;
 
   WakaTime.vscode-wakatime = callPackage ./wakatime {};
-}
+
+} // callPackage ./generated.nix { }

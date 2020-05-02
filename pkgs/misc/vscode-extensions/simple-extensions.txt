@@ -1,0 +1,12 @@
+# This list contains extensions which don't require any special packaging and
+# can be installed at their latest version. This file is used by update.sh
+# script.
+#
+# Item are pairs of marketplace extension id and license from stdenv.lib set
+# and should be sorted alphabetically.
+#
+
+#bierner.markdown-checkbox                                        licenses.mit
+#bierner.markdown-preview-github-styles                           licenses.mit
+#DavidAnson.vscode-markdownlint                                   licenses.mit
+#donjayamanne.githistory                                          licenses.mit
